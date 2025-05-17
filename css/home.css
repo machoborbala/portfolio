@@ -1,0 +1,126 @@
+#home {
+    border: 1px solid #F00658;
+}
+
+#line {
+    margin-bottom: 0;
+}
+
+/*HEADER*/
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px 40px 0px;
+}
+
+.intro-content {
+    flex: 1;
+    margin-right: 80px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline;
+}
+
+/*EXPERIENCE CARDS*/
+.experience-section {
+    padding: 0rem 0rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+    height: fit-content;
+}
+
+.section-title {
+    text-align: right;
+    margin-bottom: 0%;
+    margin-top: 0;
+    position: relative;
+    transform: translateY(3.6rem)
+        /*top: 6.5rem;*/
+}
+
+h2 .section-title animated-title {
+    margin: 0;
+}
+
+/*experience animation
+.animated-title span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}*/
+
+.card1-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    margin-bottom: 2.5rem;
+}
+
+.card1 {
+    /* flex: 1 1 30%;*/
+    min-width: 250px;
+    max-width: 30%;
+    background: rgb(255, 255, 255);
+    /*height: auto;*/
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.card1 img {
+    width: 100%;
+    height: 17rem;
+    display: block;
+    margin-bottom: 0rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card1 p {
+    font-size: 1rem;
+    color: #787878;
+    line-height: 1.6;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.popup {
+    color: #F00658;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Eltolások 
+.offset-none {
+    transform: translateY(-6.5rem);
+}
+
+.offset-medium {
+    transform: translateY(-2.3rem);
+}
+
+.offset-large {
+    transform: translateY(1.9rem);
+}*/
