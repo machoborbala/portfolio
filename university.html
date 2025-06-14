@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/university.css">
+    <script src="js/nextImage.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="name">Machó Borbála</li>
+            <li class="navbutton" id="about"><a href="about.html">About</a></li>
+            <li class="navbutton"><a id="home" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <section class="project-section">
+        <h1 style="font-size: 40px;">University project, internship, branding</h1>
+
+        <div class="gallery-container" id="gallery-container">
+            <div class="arrow-box left" onclick="prevImage()">
+                <svg width="40" height="80" viewBox="0 0 40 80">
+                    <polyline points="30,10 10,40 30,70" fill="none" stroke="#F00658" stroke-width="2"/>
+                </svg>
+            </div>
+
+            <img id="gallery-img" src="img/branding.svg" alt="img" draggable="false">
+
+            <div class="arrow-box right" onclick="nextImage()">
+                <svg width="40" height="80" viewBox="0 0 40 80">
+                    <polyline points="10,10 30,40 10,70" fill="none" stroke="#F00658" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+        <div class="circle-container">
+            <span class="circle" data-index="0"></span>
+            <span class="circle" data-index="1"></span>
+            <span class="circle" data-index="2"></span>
+        </div>
+    </section>
+
+    <a href="index.html#project-section"><span class="popup" style="margin-top: 5rem;">← Back to projects</span></a>
+
+    <footer>
+        <hr class="top">
+        <h1>Contact me</h1>
+        <div class="contact-row">
+            <div class="contact-item">
+                <p>@ email:</p>
+                <p class="contact-info">machoborbala@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <p>in linkedin:</p>
+                <a class="contact-info" href="https://www.linkedin.com/in/borbala-macho" ">www.linkedin.com/in/borbala-macho</a>
+            </div>
+            <div class=" contact-item">
+                    <p>&#9742; phone:</p>
+                    <p class="contact-info">+36 20 499 2380</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
