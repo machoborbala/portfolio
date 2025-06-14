@@ -1,0 +1,42 @@
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+img{
+    margin: auto;
+}
+
+.table {
+  display: flex;
+  gap: 40px; 
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  text-align: left;
+  vertical-align: top;
+}
+
+
+h2 {
+    color: black;
+    font-size: 2rem;
+    /*64 px*/
+    font-family: monospace;
+}
+
+
+/* overview common hr top */
+hr.top {
+    margin-top: 40px;
+}
