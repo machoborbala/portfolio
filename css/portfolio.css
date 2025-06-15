@@ -84,6 +84,11 @@ hr.top {
     width: 100%;
 }
 
+.projectsection {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 /*NAVIGATION BAR*/
 ul {
     padding: 2.5rem 0 0 0;
