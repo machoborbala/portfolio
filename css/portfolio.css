@@ -111,6 +111,11 @@ nav {
     color: #F00658;
 }
 
+#name a {
+    color: #F00658;
+    text-decoration: none;
+}
+
 li.navbutton a {
     color: #F00658;
     padding: 0.75rem 1rem;
@@ -123,6 +128,7 @@ li.navbutton a {
     max-width: 5.0625rem;
     /* 81px */
 }
+
 
 /*CONTACT*/
 footer {
