@@ -62,5 +62,9 @@
 
 /* overview common hr top */
 hr.top {
-    margin-top: 40px;
+  margin-top: 40px;
+}
+
+.project-section {
+  margin-top: 5rem;
 }

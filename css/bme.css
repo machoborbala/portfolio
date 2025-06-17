@@ -8,7 +8,11 @@
     margin-bottom: 40px;
 }
 
-#last_image{
+.project-section {
+    margin-top: 5rem;
+}
+
+#last_image {
     margin-bottom: 0px;
 }
 
